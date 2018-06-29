@@ -48,7 +48,7 @@ end
 def apply_discount
   @dollar_amount = @total*@discount/100
   @total = @total-@dollar_amount
-  puts "After the discount, the total comes to #{@total}"
+ return  puts "After the discount, the total comes to #{@total}"
 
 end
 
