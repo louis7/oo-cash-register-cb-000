@@ -51,7 +51,7 @@ def apply_discount
   @total = @total-@dollar_amount
  return  "After the discount, the total comes to $#{@total}."
   else
-    return "After the discount, the total comes to $#{@total}."
+    return "There is no discount to apply."
 end
 
 end
