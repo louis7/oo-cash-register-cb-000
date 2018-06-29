@@ -46,10 +46,12 @@ end
 
 
 def apply_discount
+  if @discount > 1
   @dollar_amount = @total*@discount/100
   @total = @total-@dollar_amount
  return  "After the discount, the total comes to $#{@total}."
-
+  else
+    return "After the discount, the total comes to $#{@total}."
 end
 
 end
